@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<h2>Events for {{ name }}</h2>
+<div class="title_sp">
+	<ul>
+		{% for location, date in events.items() %}
+			<li>#{{ location }} - {{ date }}</li>
+		{% endfor %}
+	</ul>
+</div>
+<div>
+	<br/>
+    <a href="/">Home page</a>
+</div>
+</body>
+</html>

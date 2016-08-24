@@ -1,10 +1,7 @@
 # bandsIntownGo
 
-main.go: first program in  Go. Uses the Bandsintown API
-Based on: https://howistart.org/posts/go/1
-
-bandsintown.py: Same API, an experiment with Python  
-  
-Flask app hosted on GCE.  
+GoApp: first program I wrote in Go. Based on: https://howistart.org/posts/go/1
+script: little script that displays the events for an artist/band in the console
+kubernetes: Flask app hosted on GCE.  
 
 
